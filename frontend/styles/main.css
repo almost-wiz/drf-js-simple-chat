@@ -1,0 +1,52 @@
+html, body, content {
+    height: 100%;
+    width: 100%;
+}
+.avatar {
+    max-width: 200px;
+    max-height: 200px;
+}
+.avatar-small {
+    max-width: 40px;
+    max-height: 40px;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	width: 5px;
+	background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+	width: 1em;
+	background-color: #ddd;
+	outline: 1px solid slategrey;
+	border-radius: 1rem;
+}
+.text-small {
+	font-size: 0.9rem;
+}
+.messages-box,
+.chat-box {
+	height: 90%;
+	overflow-y: scroll;
+}
+.form {
+    height: 10%;
+}
+.rounded-lg {
+	border-radius: 0.5rem;
+}
+#text_message {
+	overflow-wrap: break-word;
+	display: inline-block;
+	word-break: break-word;
+}
+input::placeholder {
+	font-size: 0.9rem;
+	color: #999;
+}
+#chat-messages-card {
+	display: inline-block;
+	max-width: 70%;
+}
